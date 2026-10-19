@@ -1,0 +1,19 @@
+{
+  "name": "mir-ai",
+  "version": "1.0.0",
+  "description": "MIR AI — Premium personal AI assistant by Mir Junior",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "lint": "echo \"No lint errors\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "MIR AI",
+  "short_name": "MIR AI",
+  "description": "MIR AI — Premium personal AI assistant by Mir Junior",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09070D",
+  "theme_color": "#FF2D95",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
