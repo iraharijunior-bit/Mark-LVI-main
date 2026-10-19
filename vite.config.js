@@ -7,7 +7,12 @@ export default defineConfig({
   },
   preview: {
     host: '0.0.0.0',
-    port: 4173
+    port: 4173,
+    allowedHosts: true,
+    headers: {
+      'X-Frame-Options': 'ALLOWALL'
+    },
+    cors: true
   },
   build: {
     outDir: 'dist',
